@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "test-rg" {
 
 #AZURE STORAGE ACCOUNT 
 #---------------------------------------------------------------------------------
-
+/*
 module "mod-sa" {
   source       = "./modules/mod-sa"
 }
@@ -73,3 +73,5 @@ module "mod-vm" {
     image_sku               = var.image_sku
 }
 #---------------------------------------------------------------------------------
+	
+*/
